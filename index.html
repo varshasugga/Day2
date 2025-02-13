@@ -7,16 +7,13 @@
     <link rel="stylesheet" href="style.CSS">
 </head>
 <body>
-    <div class="counter-container">
-        <h2>counter App</h2>
-        <p id="count">0</p>
-        <button id="increase" onclick="increaseCount()">Increase</button>
-        <button id="decrease" onclick="decreaseCount()">decrease</button>
-        <button id="reset" onclick="resetCount()">reset</button>
+    <div class="container">
+        <h2>To-Do List</h2>
+        <input type="text" id="taskInput" placeholder="Enter Task Here">
+        <button id="addTask" onclick="addTask()">Add Task</button>
+        <ul id="taskList"></ul>
     </div>
-<script src="Script.js"></script>
-    
-
+    <script src="script.js"></script>
     
 </body>
 </html>
